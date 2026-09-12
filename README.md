@@ -1,23 +1,23 @@
 # PyMusic Player 🎵
 
-مشغل موسيقى لسطح المكتب مبني بلغة Python يتيح تشغيل وإدارة الملفات الصوتية المحلية بسرعة وواجهة خفيفة.
+A lightweight desktop music player built with Python, designed for playing and managing local audio files with a clean graphical interface.
 
-![Music Player Screenshot](docs/screenshot.png)
+![Music Player Preview](docs/screenshot.png)
 
-## 🌟 الميزات الرئيسية
-* **تشغيل الصوتيات المحلية**: دعم تشغيل، إيقاف، واستئناف الملفات بصيغة `MP3`.
-* **مسح المجلدات التلقائي**: التعرّف الفوري على الملفات الصوتية الموجودة داخل مجلد الموسيقى المحتفظ به محلياً (`music/`).
-* **واجهة رسومية سلسة**: مثرية باستعمال PyQt5 لتنظيم عناصر التحكم وقائمة التشغيل.
-* **التحكم بالتشغيل**: شريط للتحكم بمستوى الصوت والانتقال بين المسارات.
+## 🌟 Key Features
+- **Local Audio Playback**: Seamless play, pause, stop, and track control for `.mp3` files.
+- **Automatic Track Scanning**: Automatically scans and loads audio files from the local `music/` directory.
+- **Sleek GUI**: Built using PyQt5 for a responsive, user-friendly layout and playlist control.
+- **Playback Controls**: Volume adjustment and track navigation.
 
-## 🛠️ التقنيات المستخدمة
-* **Python 3** - لغة البرمجة الأساسية.
-* **PyQt5** - لبناء واجهة المستخدم الرسومية (GUI).
-* **Pygame (`pygame.mixer`)** - لمعالجة وتكود وإخراج الصوتيات.
+## 🛠️ Tech Stack
+- **Python 3** - Core programming language.
+- **PyQt5** - Graphical User Interface (GUI) framework.
+- **Pygame (`pygame.mixer`)** - Audio handling and playback engine.
 
-## 🚀 طريقة التثبيت والتشغيل
+## 🚀 Installation & Setup
 
-### 1. استنساخ المستودع
+### 1. Clone the repository
 ```bash
-git clone [https://github.com/your-username/py-music-player.git](https://github.com/your-username/py-music-player.git)
+git clone [https://github.com/namoraomar56-rgb/py-music-player.git](https://github.com/namoraomar56-rgb/py-music-player.git)
 cd py-music-player
